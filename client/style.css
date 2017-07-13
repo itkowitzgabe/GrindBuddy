@@ -3,6 +3,11 @@
     text-align: center;
     padding-top: 550px;
 }
+.row-height2 {
+    height: 200px;
+    text-align: center;
+    padding-top: 5px;
+}
 .colclr1{  /*colors for the 4 cols in the first page*/
     background-color: #ffff00;
 }

@@ -58,8 +58,8 @@
 			  <li>{{> loginButtons}}</li>
           </ul>
         </li>
-        <li><a href="#">About Us!</a></li>
-        <li><a href="#">Contact Us!</a></li>
+        <li><a href="{{pathFor 'about'}}">About Us!</a></li>
+        <li><a href="{{pathFor 'contact'}}">Contact Us!</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -71,9 +71,13 @@
 
   {{> yield}}<!---->
   <div clas="row"> <!--start of the 4 cols-->
-    <div class="col-md-12 row-height2 colclr0">col0</div>
+
+  <div class="col-md-12 row-height2 colclr0">
+    <img class="img-responsive" src="https://www.bodybuilding.com/images/merchandising/july2017/2017_GainsofThrones_STORE_2400x840.jpg">
+  </div>
+
   <div class="col-md-3 row-height colclr1">
-    col1 UGLYPLACEHOLDER
+    <img width=450 src="image/chooseyourgender.png">
   </div>
 
   <div class="col-md-3 row-height colclr2">

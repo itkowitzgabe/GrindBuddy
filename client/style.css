@@ -1,18 +1,17 @@
 .row-height {
     height: 1000px;
-    text-align: center;
-    padding-top: 550px;
+    padding-top: 50px;
 }
 .row-height2 {
-    height: 200px;
+    height: 600px;
     text-align: center;
     padding-top: 5px;
 }
 .colclr0{
-    background-color: #669999;
+    background-color: white;
 }
 .colclr1{  /*colors for the 4 cols in the first page*/
-    background-color: #ffff00;
+    background-color: #0099cc;
 }
 .colclr2{
     background-color: #ff0000;

@@ -8,6 +8,9 @@
     text-align: center;
     padding-top: 5px;
 }
+.colclr0{
+    background-color: #669999;
+}
 .colclr1{  /*colors for the 4 cols in the first page*/
     background-color: #ffff00;
 }

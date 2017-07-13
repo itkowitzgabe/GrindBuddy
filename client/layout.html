@@ -11,7 +11,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">GrindBuddy</a>
+      <a class="navbar-brand" href="{{pathFor 'main'}}">GrindBuddy</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,32 +68,8 @@
   </center>
 
 
+{{> yield}}
 
-  {{> yield}}<!---->
-  <div clas="row"> <!--start of the 4 cols-->
-
-  <div class="col-md-12 row-height2 colclr0">
-    <img class="img-responsive" src="https://www.bodybuilding.com/images/merchandising/july2017/2017_GainsofThrones_STORE_2400x840.jpg">
-  </div>
-
-  <div class="col-md-3 row-height colclr1">
-    <img width=450 src="image/chooseyourgender.png">
-  </div>
-
-  <div class="col-md-3 row-height colclr2">
-    col2  UGLYPLACEHOLDER
-  </div>
-
-  <div class="col-md-3 row-height colclr3">
-    col3  UGLYPLACEHOLDER
-  </div>
-
-  <div class="col-md-3 row-height colclr4">
-    col4  UGLYPLACEHOLDER
-  </div>
-
-
-</div><!--end of the 4 cols-->
   <br>
 
 	<div id="copyright">

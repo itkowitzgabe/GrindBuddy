@@ -19,24 +19,37 @@
       <ul class="nav navbar-nav">
         <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Link</a></li>
+        <li><a href="#">Upload a workout!</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sports <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Basketball</a></li>
+            <li><a href="#">Track (cardio)</a></li>
+            <li><a href="#">Soccer</a></li>
+            <li><a href="#">Baseball</a></li>
+            <li><a href="#">Hockey</a></li>
+            <li><a href="#">Swimming</a></li>
+            <li><a href="#">Lacrosse</a></li>
+            <li><a href="#">Other</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Muscle<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Muscle1</a></li>
+            <li><a href="#">Muscle2</a></li>
+            <li><a href="#">Muscle3</a></li>
+            <li><a href="#">Muscle4</a></li>
+            <li><a href="#">Muscle5</a></li>
           </ul>
         </li>
       </ul>
       <form class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control" placeholder="Not working for now">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">We'll implement this later</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
@@ -46,22 +59,43 @@
 			  <li>{{> loginButtons}}</li>
           </ul>
         </li>
+        <li><a href="#">About Us!</a></li>
+        <li><a href="#">Contact Us!</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-	
+
   </center>
 
   <br>
 
-  {{> yield}}
+  {{> yield}}<!---->
+  <div clas="row"> <!--start of the 4 cols-->
 
+  <div class="col-md-3 row-height colclr1">
+    col1 UGLYPLACEHOLDER
+  </div>
+
+  <div class="col-md-3 row-height colclr2">
+    col2  UGLYPLACEHOLDER
+  </div>
+
+  <div class="col-md-3 row-height colclr3">
+    col3  UGLYPLACEHOLDER
+  </div>
+
+  <div class="col-md-3 row-height colclr4">
+    col4  UGLYPLACEHOLDER
+  </div>
+
+
+</div><!--end of the 4 cols-->
   <br>
-	
+
 	&copy; GrindBuddy 2017 All Rights Reserved...
 
-	
+
 
 
 </template>

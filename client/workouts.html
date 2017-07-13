@@ -1,3 +1,8 @@
 <template name="workouts">
 
+	{{#each workout in workouts}}
+		{{workout.name}} - {{workout.desc}}
+	<hr>
+	{{/each}}
+	
 </template>

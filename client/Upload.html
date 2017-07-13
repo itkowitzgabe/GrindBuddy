@@ -1,10 +1,27 @@
 <template name="upload">
-  <h1>Here you can upload your own workouts for other people to see!</h1>
+  <center><h1>Upload your workout here!</h1></center>
 <br>
- Name:<input type="text" id="js-name"><br>
- Description of workout:
+<div class="row">
+  <div class="col-md-5"></div>
+  <div class="cold-md-3">
+<div class="input-group">
+ Name of workout:<br><input class="form-control" type="text" id="js-name"><br>
  <br>
- <textarea id="js-description"></textarea><br>
- Tag:<input type="text" id="js-tag"><br>
- <input type="submit" id="js-submit" class="btn btn-info btn-sm">
+ <br>
+ <br>
+ <br>
+ <br>
+ Description of workout:
+ <textarea class="form-control" id="js-description"></textarea><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ Tag:<br><input class="form-control" type="text" id="js-tag"><br>
+ <br>
+ <input class="form-control btn btn-primary" type="submit" id="js-submit">
+ </div>
+ </div>
+ </div>
 </template>

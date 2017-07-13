@@ -1,5 +1,6 @@
 Template.upload.events({
   "click #js-submit"(event,instance){
+    alert("Workout successfully submitted.")
     console.log("hey it worked");
     var name = $("#js-name").val();
     var description = $("#js-description").val();

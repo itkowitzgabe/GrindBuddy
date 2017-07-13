@@ -1,0 +1,16 @@
+body{
+  background-color: white;
+}
+/* navbar */
+.navbar-default {
+    background-color: #42a7f4;
+    border-color: #E7E7E7;
+  }
+  /* Title */
+  .navbar-default .navbar-brand {
+      color: #ffeb19;
+  }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+      color: #d8c31e;
+  }

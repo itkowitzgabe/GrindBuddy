@@ -1,10 +1,10 @@
 <template name="workouts">
-
+all={{all}}
 <div class="row">
 	<div class="col-md-1"></div>
 	<div class="col-md-10">
-	{{#each workout in workouts}}
-		<span class="workout-name">{{workout.name}}</span> - 
+	{{#each workout in all}}
+		<span class="workout-name">{{workout.name}}</span> -
 		<br>
 		{{workout.description}}
 		<br>
@@ -13,5 +13,5 @@
 	{{/each}}
 </div>
 	<div class="col-md-1"></div>
-</div>	
+</div>
 </template>

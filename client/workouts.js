@@ -1,5 +1,5 @@
 Template.workouts.helpers({
 	workouts() {
-		return Workouts.find();
+		return Workouts.find({tag:/ab/i});
 	}
 })

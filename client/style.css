@@ -58,6 +58,9 @@ body {
 .navbar-default .navbar-brand:hover {
 	color: #d8c31e;
 }
+.navbar-default .navbar-nav > li > a {
+ color: Black; /*Change active text color here*/
+  }
 
 .footer#copyright {
 	width: 100%;

@@ -1,8 +1,13 @@
 <template name="workouts">
 
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
 	{{#each workout in workouts}}
 		{{workout.name}} - {{workout.description}}
 	<hr>
 	{{/each}}
-
+</div>
+	<div class="col-md-1"></div>
+</div>	
 </template>

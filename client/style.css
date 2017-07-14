@@ -42,8 +42,8 @@ body{
       color: #d8c31e;
   }
 
-  div#copyright
-    {
+  #copyright
+    .footer{
       width:100%;
       height:20px;
       padding: 1px;

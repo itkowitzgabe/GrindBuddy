@@ -1,59 +1,82 @@
 .row-height {
-    height: 1000px;
-    padding-top: 50px;
+	height: 1000px;
+	padding-top: 50px;
 }
-.row-height2 {
-    height: 600px;
-    text-align: center;
-    padding-top: 5px;
-}
-.colclr0{
-    background-color: white;
-}
-.colclr1{  /*colors for the 4 cols in the first page*/
-    background-color: #b3e6ff;
-}
-.colclr2{
-    background-color: white;
-}
-.colclr3{
-    background-color: #b3e6ff;
-}
-.colclr4{
-    background-color: white;
-}
-.cw {
-  width: 100%
-}
-body{
-  background-color: white;
-}
-/* navbar */
-.navbar-default {
-    background-color: #42a7f4;
-    border-color: #E7E7E7;
-  }
-  /* Title */
-  .navbar-default .navbar-brand {
-      color: #ffeb19;
-  }
-  .navbar-default .navbar-brand:hover,
-  .navbar-default .navbar-brand:focus {
-      color: #d8c31e;
-  }
 
-  div#copyright
-    {
-      width:100%;
-      height:20px;
-      padding: 1px;
-      -moz-border-radius: 35px;
-      border-radius:35px;
-      background-color: #d6d6d6;
-      color: #000000;
-      position:fixed;
-      bottom: 0;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
+.row-height2 {
+	height: 600px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.colclr0 {
+	background-color: white;
+}
+
+.colclr1 {
+	/*colors for the 4 cols in the first page*/
+	background-color: #b3e6ff;
+}
+
+.colclr2 {
+	background-color: white;
+}
+
+.colclr3 {
+	background-color: #b3e6ff;
+}
+
+.colclr4 {
+	background-color: white;
+}
+
+.cw {
+	width: 100%
+}
+
+body {
+	background-color: white;
+}
+
+
+/* navbar */
+
+.navbar-default {
+	background-color: #42a7f4;
+	border-color: #E7E7E7;
+}
+
+
+/* Title */
+
+.navbar-default .navbar-brand {
+	color: #ffeb19;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #d8c31e;
+}
+
+div#copyright {
+	width: 100%;
+	height: 20px;
+	padding: 1px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	background-color: #d6d6d6;
+	color: #000000;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.workout-name {
+	font-weight: bold;
+}
+
+.workout-tags {
+	font-style: italic;
+}

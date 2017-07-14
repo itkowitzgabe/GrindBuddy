@@ -4,7 +4,11 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-10">
 	{{#each workout in workouts}}
-		{{workout.name}} - {{workout.description}}
+		<span class="workout-name">{{workout.name}}</span> - 
+		<br>
+		{{workout.description}}
+		<br>
+		<span class="workout-tags"><span class="workout-name">Categories:</span> {{workout.tag}}</span>
 	<hr>
 	{{/each}}
 </div>

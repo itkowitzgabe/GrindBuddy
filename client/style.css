@@ -53,8 +53,7 @@ body {
 	color: #ffeb19;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover {
 	color: #d8c31e;
 }
 

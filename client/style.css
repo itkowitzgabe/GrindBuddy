@@ -51,6 +51,8 @@ body {
 
 .navbar-default .navbar-brand {
 	color: #ffeb19;
+  font-size: 24px;
+  font-family: Helvetica;
 }
 
 .navbar-default .navbar-brand:hover,

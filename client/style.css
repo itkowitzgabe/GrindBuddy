@@ -1,34 +1,46 @@
 .row-height {
-    height: 1000px;
-    padding-top: 50px;
+	height: 1000px;
+	padding-top: 50px;
 }
+
 .row-height2 {
-    height: 600px;
-    text-align: center;
-    padding-top: 5px;
+	height: 600px;
+	text-align: center;
+	padding-top: 5px;
 }
-.colclr0{
-    background-color: white;
+
+.colclr0 {
+	background-color: white;
 }
-.colclr1{  /*colors for the 4 cols in the first page*/
-    background-color: #b3e6ff;
+
+.colclr1 {
+	/*colors for the 4 cols in the first page*/
+	background-color: #b3e6ff;
 }
-.colclr2{
-    background-color: white;
+
+.colclr2 {
+	background-color: white;
 }
-.colclr3{
-    background-color: #b3e6ff;
+
+.colclr3 {
+	background-color: #b3e6ff;
 }
-.colclr4{
-    background-color: white;
+
+.colclr4 {
+	background-color: white;
 }
+
 .cw {
-  width: 100%
+	width: 100%
 }
-body{
-  background-color: white;
+
+body {
+	background-color: white;
 }
+
+
 /* navbar */
+
 .navbar-default {
     background-color: #42a7f4;
     border-color: #E7E7E7;

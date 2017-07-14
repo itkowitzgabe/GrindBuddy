@@ -1,5 +1,5 @@
 var categories = {
-	"sports": [
+  "sports": [
     "Football",
     "Basketball",
     "Track",
@@ -9,7 +9,7 @@ var categories = {
     "Swimming",
     "Lacrosse"
   ],
-	"muscle": [
+  "muscle": [
     "Neck",
     "Traps",
     "Upper Back",
@@ -19,13 +19,13 @@ var categories = {
     "Biceps",
     "Triceps",
     "Forearms",
-    "Quadricaps",
+    "Quadriceps",
     "Glutes",
     "Hamstrings",
     "Calves",
     "Abs"
   ],
-	"functions": [
+  "functions": [
     "Muscle Building",
     "Muscle Definition",
     "Plyometrics",
@@ -34,7 +34,7 @@ var categories = {
 }
 
 Template.layout.helpers({
-	categories() {
-		return categories
-	}
+  categories() {
+    return categories
+  }
 })

@@ -43,29 +43,41 @@ body {
 
 .navbar-default {
     background-color: #42a7f4;
-    border-color: #E7E7E7;
-  }
-  /* Title */
-  .navbar-default .navbar-brand {
-      color: #ffeb19;
-  }
-  .navbar-default .navbar-brand:hover,
-  .navbar-default .navbar-brand:focus {
-      color: #d8c31e;
-  }
+	background-color: #2aa3ff;
+	border-color: #E7E7E7;
+}
 
-  #copyright
-    .footer{
-      width:100%;
-      height:20px;
-      padding: 1px;
-      -moz-border-radius: 35px;
-      border-radius:35px;
-      background-color: #d6d6d6;
-      color: #000000;
-      position:fixed;
-      bottom: 0;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
+
+/* Title */
+
+.navbar-default .navbar-brand {
+	color: #ffeb19;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #d8c31e;
+}
+
+.footer#copyright {
+	width: 100%;
+	height: 20px;
+	padding: 1px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	background-color: #d6d6d6;
+	color: #000000;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.workout-name {
+	font-weight: bold;
+}
+
+.workout-tags {
+	font-style: italic;
+}

@@ -3,16 +3,23 @@
 <div class="row">
 	<div class="col-md-1"></div>
 	<div class="col-md-10">
-	{{#each workout in all}}
-		<span class="workout-name">{{workout.name}}</span> -
-		<br>
-		{{workout.description}}
-		<br>
-		<span class="workout-tags"><span class="workout-name">Categories:</span> {{workout.tag}}</span>
-		<br>
-	<hr>
+	{{#each w in all}}
+	  {{> workout workout = w}}
 	{{/each}}
 </div>
 	<div class="col-md-1"></div>
 </div>
+</template>
+
+<template name="workout">
+	<span class="workout-name">{{workout.name}}</span> -
+	<br>
+	{{workout.description}}
+	<br>
+	<span class="workout-tags"><span class="workout-name">Categories:</span> {{workout.tag}}</span>
+  {{#if owner workout}}
+ <span class="glyphicon glyphicon-remove fbrmpost" aria-hidden="true"></span>
+  {{/if}}
+	<br>
+<hr>
 </template>

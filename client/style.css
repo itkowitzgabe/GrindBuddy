@@ -64,18 +64,7 @@ body {
 .navbar-inverse .navbar-brand:active {
 	color: #d8c31e;
 }
-.navbar-default .navbar-nav > li > a {
- color: Black; /*Change active text color here*/
-  }
-  .dropdown-menu a{
-background-color: #2aa3ff;
-  color: #110689 !important;
 
-  }
-
-  #bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > a {
-   color: #110689; /*Change active text color here*/
-    }
 
 
 .footer#copyright {

@@ -3,9 +3,8 @@
   <center><h1>Upload your workout here!</h1></center>
 <br>
 <div class="row">
-  <div class="col-md-5"></div>
   <div class="cold-md-1 pad">
-<div class="input-group">
+<div class="input-group center-block" >
  Name of workout:<br><input class="form-control" type="text" id="js-name"><br>
  <br>
  <br>
@@ -13,13 +12,13 @@
  <br>
  <br>
  Description of workout:
- <textarea class="form-control" id="js-description"></textarea><br>
+ <textarea rows="8" class="form-control" id="js-description" style="margin-bottom:65px;"></textarea><br>
  <br>
  <br>
  <br>
  <br>
  <br>
- Tags:<br><input class="form-control" type="text" id="js-tag"><br>
+ Tags (seperated by commas):<br><input class="form-control" type="text" id="js-tag"><br>
  <br>
  <input class="form-control btn btn-primary" type="submit" id="js-submit">
  </div>
@@ -27,7 +26,8 @@
  </div>
  {{else}}
  <br />
- <h3 style="text-align:center;">Please sign in to upload a workout.</h3>
+ <h3 style="text-align:center;">Please <a href="#" class="login-dropdown">sign in</a> to upload a workout.</h3>
  <br />
  {{/if}}
+
 </template>

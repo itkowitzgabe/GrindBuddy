@@ -15,7 +15,7 @@ Template.workout.helpers({
 })
 
 Template.workout.events({
-  "click span" (event, instance) {
+  "click span#remove" (event, instance) {
     console.dir(this);
     Workouts.remove(this.workout._id);
   }

@@ -18,7 +18,7 @@ Template.upload.events({
   },
   "click a" (event, instance) {
     Accounts._loginButtonsSession.set('dropdownVisible', true);
-    console.log('dropdownVisible');
+    //console.log('dropdownVisible');
   }
 
 })

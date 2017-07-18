@@ -110,9 +110,15 @@ body {
 	margin-right:14px;
 	margin-bottom:14px;
 }
-#login-name-link,#login-sign-in-link{
+#login-name-link, #login-sign-in-link, a {
 	color:#ff981c;
 }
+#login-name-link:hover,
+#login-sign-in-link:hover,
+a:hover {
+	color:#ec8811;
+}
+
 .grind{
 	color:#ff981c !important;
 	font-weight: 300;

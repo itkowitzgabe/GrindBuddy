@@ -141,7 +141,10 @@ a:hover {
 	font-weight: bold;
 }
 body > div.row > div.col-md-10.pad10 > a,
-#js-submit {
+#js-submit,
+#login-buttons-open-change-password,
+#login-buttons-logout,
+#login-buttons-password {
 	background-color: #ff981c !important;
 	border-color: #ff981c !important;
 	color: white;

@@ -1,11 +1,15 @@
 Template.upload.events({
   "click #js-submit" (event, instance) {
-    $('#submit-alert').fadeIn(); //success dialogue
+
     console.log("hey it worked");
     var name = $("#js-name").val();
     var description = $("#js-description").val();
     var tag = $("#js-tag").val();
-
+    if (!name || !description || !tag) {
+      //alert("you must fill out all field");
+      $('#submit-error').fadeIn();
+      return;
+    }
     p = {
       name: name,
       description: description,
@@ -15,6 +19,7 @@ Template.upload.events({
     };
     console.dir(p);
     Workouts.insert(p);
+    $('#submit-alert').fadeIn(); //success dialogue
   },
   "click #login-dropdown" (event, instance) {
     Accounts._loginButtonsSession.set('dropdownVisible', true);

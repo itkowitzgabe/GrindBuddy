@@ -145,9 +145,20 @@ body > div.row > div.col-md-10.pad10 > a,
 #js-submit,
 #login-buttons-open-change-password,
 #login-buttons-logout,
-#login-buttons-password {
+#login-buttons-password,
+#login-buttons-do-change-password {
 	background-color: #ff981c !important;
 	border-color: #ff981c !important;
+	color: white;
+}
+body > div.row > div.col-md-10.pad10 > a:hover,
+#js-submit:hover,
+#login-buttons-open-change-password:hover,
+#login-buttons-logout:hover,
+#login-buttons-password:hover,
+#login-buttons-do-change-password:hover {
+	background-color: #fba43a !important;
+	border-color: #fba43a !important;
 	color: white;
 }
 hr {

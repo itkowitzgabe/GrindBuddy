@@ -157,3 +157,7 @@ hr {
     color: #a7a7a7; /* old IE */
     background-color: #a7a7a7; /* Modern Browsers */
 }
+
+#remove{
+	margin-left: 5px;
+}

@@ -19,10 +19,18 @@
 	padding-right:30%;
 }
 
+.contactus{
+	font-size:27px;
+	color:#000000
+}
+
 @media screen and (max-width: 767px){
 	.pad{
 		padding-left: 15%;
 		padding-right: 15%;
+	}
+	.contactus{
+		font-size: 15px;
 	}
 }
 

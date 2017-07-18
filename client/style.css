@@ -149,3 +149,10 @@ body > div.row > div.col-md-10.pad10 > a,
 	border-color: #ff981c !important;
 	color: white;
 }
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #a7a7a7; /* old IE */
+    background-color: #a7a7a7; /* Modern Browsers */
+}

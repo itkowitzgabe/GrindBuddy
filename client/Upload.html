@@ -1,15 +1,19 @@
 <template name="upload">
  {{#if currentUser}}
 
- <div class="alert alert-success" role="alert" id="submit-alert" style="display:none;">
+ <div class="alert alert-success text-center" role="alert" id="submit-alert" style="display:none;">
   <strong>Workout successfully submitted!</strong> You can view your workout <a href="/workouts/all" class="alert-link">here</a>.
 </div>
 
-<div class="alert alert-danger" role="alert" id="submit-error" style="display:none;">
- You must fill out all fields.
+<div class="alert alert-danger text-center" role="alert" id="submit-error" style="display:none;">
+ <strong>Error: </strong>You must fill out all fields to submit a workout.
 </div>
 
-  <center><h1>Upload your workout here!</h1></center>
+<div class="alert alert-warning text-center" role="alert" id="submit-dupe" style="display:none;">
+  <strong>Error: </strong>A workout with this description has already been submitted.
+</div>
+<br />
+  <center><h1>Add a workout</h1></center>
 <br>
 <div class="row">
   <div class="cold-md-1 pad">
@@ -22,10 +26,6 @@
  <br>
  Description of workout:
  <textarea rows="8" class="form-control" id="js-description" style="margin-bottom:65px;"></textarea><br>
- <br>
- <br>
- <br>
- <br>
  <br>
  Tags (seperated by commas):<br><input class="form-control" type="text" id="js-tag"><br>
  <br>

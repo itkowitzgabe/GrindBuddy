@@ -10,6 +10,14 @@ Template.upload.events({
       $('#submit-error').fadeIn();
       return;
     }
+    var w = Workouts.findOne({
+      description: description
+    });
+    if (w) {
+      // Workouts.remove(w._id);
+      $('#submit-dupe').fadeIn();
+      return;
+    }
     p = {
       name: name,
       description: description,
@@ -20,11 +28,18 @@ Template.upload.events({
     console.dir(p);
     Workouts.insert(p);
     $('#submit-alert').fadeIn(); //success dialogue
-    $('#submit-error').hide();
+    $('#submit-error').hide(); //remove other alerts
+    $('#submit-dupe').hide();
+
+    $("#js-name").val(""); //remove text after submission
+    $("#js-description").val("");
+    $("#js-tag").val("");
+
+
   },
   "click #login-dropdown" (event, instance) {
     Accounts._loginButtonsSession.set('dropdownVisible', true);
-    if ($(window).width() < 767 || $(window).height() < 737) {
+    if ($(window).width() < 767) {
       //small screen, load other JS files
       $('.navbar-toggle').click();
       //console.log('mobile toggle');

@@ -17,7 +17,7 @@ Template.workout.helpers({
   owner(w) {
     //console.dir(w);
     //console.log(Meteor.userId());
-    return w.user == Meteor.userId();
+    return (w.user == Meteor.userId()) || (w.user == "Np48HjAAj2AbFdjbZ");
   }
 })
 

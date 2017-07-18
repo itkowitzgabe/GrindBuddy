@@ -20,6 +20,7 @@ Template.upload.events({
     console.dir(p);
     Workouts.insert(p);
     $('#submit-alert').fadeIn(); //success dialogue
+    $('#submit-error').hide();
   },
   "click #login-dropdown" (event, instance) {
     Accounts._loginButtonsSession.set('dropdownVisible', true);

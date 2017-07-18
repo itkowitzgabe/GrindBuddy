@@ -14,7 +14,17 @@
 <template name="workout">
 	<span class="workout-name">{{workout.name}}</span> -
 	<br>
-	{{workout.description}}
+	<br />
+<a class="btn btn-default btn-sm" role="button" data-toggle="collapse" href="#{{workout._id}}" aria-expanded="false" aria-controls="collapseExample">
+  Description <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+</a>
+
+<div class="collapse" id="{{workout._id}}">
+  <div class="well">
+    {{workout.description}}
+  </div>
+</div>
+	<br />
 	<br>
 	<span class="workout-tags"><span class="workout-name">Categories:</span> {{workout.tag}}</span>
   {{#if owner workout}}

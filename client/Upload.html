@@ -1,5 +1,11 @@
 <template name="upload">
  {{#if currentUser}}
+
+ <div class="alert alert-success alert-dismissible" role="alert" id="submit-alert" style="display:none;">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Workout successfully submitted!</strong> You can view your workout <a href="/workouts/all" class="alert-link">here</a>.
+</div>
+
   <center><h1>Upload your workout here!</h1></center>
 <br>
 <div class="row">
@@ -26,7 +32,7 @@
  </div>
  {{else}}
  <br />
- <h3 style="text-align:center;">Please <a href="#" class="login-dropdown">sign in</a> to upload a workout.</h3>
+ <h3 style="text-align:center;">Please <a href="#" id="login-dropdown">sign in</a> to upload a workout.</h3>
  <br />
  {{/if}}
 

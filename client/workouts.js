@@ -1,8 +1,14 @@
 Template.workouts.helpers({
   workouts() {
-    return Workouts.find({
+    ws = Workouts.find({
       tag: /ab/i
+    }, {
+      sort: {
+        createdBy: -1
+      }
     });
+    console.dir(ws);
+    return ws;
   },
 
 })

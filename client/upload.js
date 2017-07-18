@@ -1,6 +1,6 @@
 Template.upload.events({
   "click #js-submit" (event, instance) {
-    alert("Workout successfully submitted.")
+    $('#submit-alert').fadeIn(); //success dialogue
     console.log("hey it worked");
     var name = $("#js-name").val();
     var description = $("#js-description").val();
@@ -16,9 +16,15 @@ Template.upload.events({
     console.dir(p);
     Workouts.insert(p);
   },
-  "click a" (event, instance) {
+  "click #login-dropdown" (event, instance) {
     Accounts._loginButtonsSession.set('dropdownVisible', true);
+    if ($(window).width() < 767 || $(window).height() < 737) {
+      //small screen, load other JS files
+      $('.navbar-toggle').click();
+      //console.log('mobile toggle');
+    }
     //console.log('dropdownVisible');
-  }
+  },
+
 
 })
